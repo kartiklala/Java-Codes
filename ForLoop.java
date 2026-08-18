@@ -1,3 +1,4 @@
+// EXPERIMENT 6
 import java.util.Scanner;
 
 public class ForLoop {

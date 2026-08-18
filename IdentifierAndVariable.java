@@ -1,9 +1,10 @@
+// EXPERIMENT 1
 public class IdentifierAndVariable {
     public static void main(String[] args) {
 
         // Declaring and assigning variables
-        String studentName = "Samay";
-        int rollNumber = 101;
+        String studentName = "Kartik";
+        int rollNumber = 017;
         int subject1Marks = 85;
         int subject2Marks = 90;
         int subject3Marks = 88;
