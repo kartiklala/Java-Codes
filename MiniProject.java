@@ -9,7 +9,7 @@ public class MiniProject {
         int[] marks = new int[5];
         int total = 0;
         // Read marks of 5 subjects
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 5; i++) { //marks.length
             System.out.print("Enter marks for subject " + (i + 1) + ": ");
             marks[i] = sc.nextInt();
             total += marks[i];
@@ -26,9 +26,11 @@ public class MiniProject {
         else if (average >= 75) {
             System.out.println("Grade: B");
         }
-        else {
+        else if (average >= 50) {
             System.out.println("Grade: C");
         }
-        sc.close();
-    }
+        else {
+            System.out.println("FAILED");
+        }
+        sc.close();6 7       }
 }
